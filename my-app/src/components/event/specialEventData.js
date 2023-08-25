@@ -74,7 +74,7 @@ const venues = [{
     capacity : '800 guests'
 
 },
-
+       
 
 
 

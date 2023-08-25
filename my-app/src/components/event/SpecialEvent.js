@@ -12,7 +12,7 @@ export default function SpecialEvent() {
 
   return (
     <>
-<div className='event-item'>
+<div className='event-item'>      
 
   <div className='special-event'>
 
@@ -54,11 +54,11 @@ export default function SpecialEvent() {
         <div className="hotel-item col-6" >
           <h3>{item.name}</h3>
           <h5>{item.hotel}</h5>
-        <p>{item.desc}</p>
+        <p>{item.desc}</p>      
         <p>{item.point1}</p>
-        <div> <b>Dimensions </b> : {item.dimension} &nbsp; <b>Area </b>: {item.area} <br/>
+        <div className='dimension'> <b>Dimensions </b> : {item.dimension} &nbsp; <b>Area </b>: {item.area} <br/>
         <b>Guest Entry Point:</b>{item.entry}
-        </div> 
+        </div>            
         <p><b>Max Capacity :</b>{item.capacity}</p>
 
         <Link to ='/eventform'>
