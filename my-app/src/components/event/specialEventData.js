@@ -18,9 +18,6 @@ const events = [{
 
 }]
 
-
-
-
 const venues = [{
     id:4,
     name : 'BALLROOM ',
